@@ -92,7 +92,13 @@ main {
 
 .actions {
   display: flex;
-  align-items: baseline;
+  flex-direction: column;
+}
+
+.actions-header {
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 20px;
 }
 
 .actions button.user-like {
@@ -119,3 +125,6 @@ main {
 .new-comment input[type="text"] {
   width: 100%;
 }
+
+
+
